@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Alex Morgan — Electrical Engineer focused on embedded systems, mixed-signal hardware, and production-ready electronics."
+    />
+    <title>Alex Morgan | Electrical Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <div class="layout container">
+      <aside class="left">
+        <h1>Alex Morgan</h1>
+        <p class="role">Electrical Engineer</p>
+        <p class="tagline">I design electronics that survive real-world constraints.</p>
+
+        <nav class="section-nav" aria-label="Section navigation">
+          <a href="#about" data-link>About</a>
+          <a href="#experience" data-link>Experience</a>
+          <a href="#projects" data-link>Projects</a>
+          <a href="#contact" data-link>Contact</a>
+        </nav>
+
+        <ul class="meta">
+          <li>Embedded Systems</li>
+          <li>Mixed-Signal Design</li>
+          <li>PCB + Validation</li>
+        </ul>
+      </aside>
+
+      <main id="content" class="right">
+        <section id="about" class="section">
+          <h2>About</h2>
+          <p>
+            I’m an electrical engineer with 7+ years building embedded hardware from architecture to
+            production. I work across schematic capture, PCB layout, firmware bring-up, and hardware
+            validation.
+          </p>
+          <p>
+            My focus is pragmatic engineering: fast iteration in the lab, data-backed debugging, and
+            manufacturable designs that hold up in the field.
+          </p>
+        </section>
+
+        <section id="experience" class="section">
+          <h2>Experience</h2>
+
+          <article class="card">
+            <header>
+              <h3>Senior Electrical Engineer · ArcVolt Systems</h3>
+              <span>2021 — Present</span>
+            </header>
+            <p>Industrial controls, high-reliability sensor interfaces, and board-level validation.</p>
+            <ul>
+              <li>Led 6 PCB releases from prototype to pilot manufacturing.</li>
+              <li>Built automated test fixtures that cut validation time by 35%.</li>
+              <li>Reduced field-return failure rate by improving EMI and power integrity checks.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <header>
+              <h3>Electrical Engineer · Pulse Dynamics</h3>
+              <span>2017 — 2021</span>
+            </header>
+            <p>Low-power embedded hardware for battery-operated IoT devices.</p>
+            <ul>
+              <li>Designed analog front ends and power rails for sensor acquisition systems.</li>
+              <li>Partnered with firmware/mechanical teams through EVT, DVT, and PVT.</li>
+              <li>Implemented production test procedures for contract manufacturing lines.</li>
+            </ul>
+          </article>
+        </section>
+
+        <section id="projects" class="section">
+          <h2>Projects</h2>
+
+          <article class="project">
+            <img src="assets/project-bms.svg" alt="Smart BMS project board graphic" loading="lazy" decoding="async" />
+            <div>
+              <h3>Smart BMS Prototype</h3>
+              <p>4S battery management board with active balancing, protection logic, and CAN telemetry.</p>
+              <p class="stack">KiCad · STM32 · CAN</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <img src="assets/project-iot.svg" alt="IoT power monitor project board graphic" loading="lazy" decoding="async" />
+            <div>
+              <h3>IoT Power Monitor</h3>
+              <p>Isolated sensing and cloud diagnostics for long-run power profiling and anomaly alerts.</p>
+              <p class="stack">ESP32 · Analog Front-End · MQTT</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <img src="assets/project-motor.svg" alt="Motor control rig project board graphic" loading="lazy" decoding="async" />
+            <div>
+              <h3>Motor Control Test Rig</h3>
+              <p>BLDC validation platform with thermal tracking, programmable load profiles, and pass/fail reporting.</p>
+              <p class="stack">Power Electronics · Python · DAQ</p>
+            </div>
+          </article>
+        </section>
+
+        <section id="contact" class="section contact">
+          <h2>Contact</h2>
+          <p>I’m open to senior electrical/embedded roles and high-impact consulting work.</p>
+          <a class="cta" href="mailto:alex.morgan@example.com">alex.morgan@example.com</a>
+          <p class="copyright" data-copyright></p>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
