@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Alex Morgan — Electrical Engineer portfolio with hardware projects, embedded systems work, and professional experience."
+      content="Alex Morgan — Senior software engineer resume with impact highlights, experience timeline, projects, and contact details."
     />
-    <title>Alex Morgan | Electrical Engineer</title>
+    <title>Alex Morgan | Senior Software Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,16 +17,14 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <canvas id="fx-canvas" aria-hidden="true"></canvas>
-    <div class="bg-orb orb-1" aria-hidden="true"></div>
-    <div class="bg-orb orb-2" aria-hidden="true"></div>
-
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="hero" id="top">
       <nav class="container nav" aria-label="Primary navigation">
-        <a class="logo" href="#top">Alex Morgan, E.E.</a>
-        <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <a class="logo" href="#top">Alex Morgan</a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
         <ul class="nav-links" id="site-nav">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
@@ -35,128 +33,134 @@
         </ul>
       </nav>
 
-      <div class="container hero-content glass panel">
-        <p class="eyebrow">Electrical Engineer • Embedded Systems • Power Electronics</p>
-        <h1>Designing reliable electronics from concept, to board, to field deployment.</h1>
+      <div class="container hero-content">
+        <p class="eyebrow">Senior Software Engineer • Product & Platform</p>
+        <h1>Helping teams ship scalable web products with measurable outcomes.</h1>
         <p class="intro">
-          I specialize in mixed-signal design, embedded firmware integration, and hardware
-          validation. This site highlights my personal builds and professional engineering work.
+          I build high-performance, accessible web applications and collaborate across product,
+          design, and engineering to turn ambitious ideas into reliable customer experiences.
         </p>
 
         <ul class="quick-facts" aria-label="Career highlights">
-          <li><strong>7+ years</strong> in electronics and embedded product development</li>
-          <li><strong>15+ PCB designs</strong> from prototype through production</li>
-          <li><strong>30% lower failure rate</strong> from improved validation workflows</li>
+          <li><strong>6+ years</strong> delivering production software</li>
+          <li><strong>20+ launches</strong> across SaaS, fintech, and internal tooling</li>
+          <li><strong>35% avg</strong> improvement in key performance metrics</li>
         </ul>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Book a Conversation</a>
+          <a class="btn btn-secondary" href="#projects">Explore Projects</a>
+          <a class="btn btn-tertiary" href="mailto:alex.morgan@example.com">Email Me</a>
+        </div>
       </div>
     </header>
 
     <main id="main-content">
       <section class="section container" id="about">
-        <div class="section-head">
-          <h2>About Me</h2>
-          <p>Hands-on electrical engineer focused on robust, manufacturable designs.</p>
-        </div>
+        <h2>About</h2>
+        <p>
+          I’m a full-stack engineer focused on performance, maintainability, and product impact. I
+          enjoy owning features end-to-end, mentoring teammates, and designing systems that stay
+          clean as teams scale.
+        </p>
 
-        <div class="glass panel">
-          <p>
-            I build electronic systems end-to-end: requirements capture, schematic and PCB layout,
-            firmware bring-up, and lab validation. I enjoy transforming rough ideas into tested,
-            deployable hardware.
-          </p>
-          <div class="skills-wrap" aria-label="Core skills">
-            <h3>Technical Focus</h3>
-            <ul class="skills-list">
-              <li>Analog & Mixed-Signal Design</li>
-              <li>Power Supplies & Battery Systems</li>
-              <li>Embedded C / RTOS</li>
-              <li>MCU Bring-up (STM32 / ESP32)</li>
-              <li>PCB Design (KiCad / Altium)</li>
-              <li>Signal Integrity & EMI Debug</li>
-              <li>Lab Validation & Test Fixtures</li>
-              <li>DFM / Production Support</li>
-            </ul>
+        <div class="skills-wrap" aria-label="Core skills">
+          <h3>Core Skills</h3>
+          <ul class="skills-list">
+            <li>JavaScript / TypeScript</li>
+            <li>React / Next.js</li>
+            <li>Node.js / API Design</li>
+            <li>PostgreSQL / Data Modeling</li>
+            <li>Web Performance</li>
+            <li>Accessibility (WCAG)</li>
+            <li>CI/CD and Testing</li>
+            <li>Cross-functional Leadership</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="experience">
+        <div class="container">
+          <h2>Experience</h2>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <header>
+                <h3>Senior Software Engineer — Northstar Labs</h3>
+                <p>2021 – Present</p>
+              </header>
+              <ul>
+                <li>Led frontend platform migration to reusable, typed components.</li>
+                <li>Reduced Core Web Vitals regressions by 40% via performance budgets.</li>
+                <li>Partnered with design on accessible UI patterns used across teams.</li>
+              </ul>
+            </article>
+
+            <article class="timeline-item">
+              <header>
+                <h3>Software Engineer — BrightPath Tech</h3>
+                <p>2018 – 2021</p>
+              </header>
+              <ul>
+                <li>Shipped customer-facing features in a service-oriented architecture.</li>
+                <li>Implemented CI quality gates, reducing production defects by 30%.</li>
+                <li>Mentored junior engineers and facilitated weekly code reviews.</li>
+              </ul>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section container" id="experience">
-        <div class="section-head">
-          <h2>Professional Experience</h2>
-          <p>Roles where I designed, tested, and delivered electronics for real-world use.</p>
-        </div>
-
-        <div class="timeline">
-          <article class="timeline-item glass panel">
-            <header>
-              <h3>Senior Electrical Engineer — ArcVolt Systems</h3>
-              <p>2021 – Present</p>
-            </header>
-            <ul>
-              <li>Owned schematic + layout for industrial sensor and control boards.</li>
-              <li>Built automated validation benches that reduced debug cycle time by 35%.</li>
-              <li>Led root-cause analysis on field returns and improved reliability metrics.</li>
-            </ul>
-          </article>
-
-          <article class="timeline-item glass panel">
-            <header>
-              <h3>Electrical Engineer — Pulse Dynamics</h3>
-              <p>2017 – 2021</p>
-            </header>
-            <ul>
-              <li>Developed low-power embedded hardware for battery-operated products.</li>
-              <li>Collaborated with firmware and mechanical teams through EVT/DVT/PVT.</li>
-              <li>Created test procedures and manufacturing checks for production scale-up.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
       <section class="section container" id="projects">
-        <div class="section-head">
-          <h2>Personal & Professional Projects</h2>
-          <p>Electronics-focused builds that demonstrate design depth and practical execution.</p>
-        </div>
-
+        <h2>Selected Projects</h2>
         <div class="project-grid">
-          <article class="project-card glass panel">
-            <h3>Smart BMS Prototype</h3>
+          <article class="project-card">
+            <h3>Revenue Analytics Dashboard</h3>
             <p>
-              Designed a 4S battery management board with balancing, protection monitoring, and CAN
-              telemetry for pack diagnostics.
+              Real-time reporting experience for finance teams with granular filtering and high-
+              trust visual data summaries.
             </p>
-            <p class="tech">KiCad • STM32 • CAN</p>
+            <p class="tech">React • TypeScript • GraphQL</p>
           </article>
 
-          <article class="project-card glass panel">
-            <h3>IoT Power Monitor</h3>
+          <article class="project-card">
+            <h3>Customer Onboarding Platform</h3>
             <p>
-              Built an energy monitor with isolated sensing and cloud upload, enabling long-term
-              usage profiling for home and lab systems.
+              Guided onboarding flow that improved activation rates while reducing support ticket
+              volume through in-product assistance.
             </p>
-            <p class="tech">ESP32 • ADC Front-End • MQTT</p>
+            <p class="tech">Next.js • Node.js • PostgreSQL</p>
           </article>
 
-          <article class="project-card glass panel">
-            <h3>Motor Control Test Rig</h3>
+          <article class="project-card">
+            <h3>Accessibility Audit Toolkit</h3>
             <p>
-              Created a bench setup for BLDC controller validation with load simulation, thermal
-              tracking, and scripted pass/fail reporting.
+              Internal automation for accessibility checks and reporting integrated directly into CI
+              pipelines.
             </p>
-            <p class="tech">Power Electronics • Python • DAQ</p>
+            <p class="tech">JavaScript • Playwright • CI/CD</p>
           </article>
         </div>
       </section>
     </main>
 
     <footer class="footer" id="contact">
-      <div class="container footer-content glass panel">
+      <div class="container footer-content">
         <div>
           <h2>Contact</h2>
           <p>Email: <a href="mailto:alex.morgan@example.com">alex.morgan@example.com</a></p>
-          <p>LinkedIn: <a href="https://linkedin.com/in/alexmorgan" target="_blank" rel="noreferrer">linkedin.com/in/alexmorgan</a></p>
-          <p>GitHub: <a href="https://github.com/alexmorgan" target="_blank" rel="noreferrer">github.com/alexmorgan</a></p>
+          <p>
+            LinkedIn:
+            <a href="https://linkedin.com/in/alexmorgan" target="_blank" rel="noreferrer"
+              >linkedin.com/in/alexmorgan</a
+            >
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/alexmorgan" target="_blank" rel="noreferrer"
+              >github.com/alexmorgan</a
+            >
+          </p>
           <p class="copyright" data-copyright></p>
         </div>
         <a class="btn btn-primary" href="#top">Back to Top</a>
