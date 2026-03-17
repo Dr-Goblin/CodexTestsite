@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Battery management PCB illustration">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b3b2f"/>
+      <stop offset="100%" stop-color="#041b15"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g1)"/>
+  <g stroke="#2dfcbf" stroke-width="6" fill="none" opacity="0.65">
+    <path d="M90 130H430V250H730V470H1110"/>
+    <path d="M120 520H350V390H590V240H960V110"/>
+    <path d="M200 320H520V560H980"/>
+  </g>
+  <g fill="#3fb6ff" opacity="0.85">
+    <circle cx="430" cy="250" r="10"/><circle cx="730" cy="470" r="10"/><circle cx="590" cy="240" r="10"/>
+    <circle cx="520" cy="560" r="10"/><circle cx="350" cy="390" r="10"/>
+  </g>
+  <rect x="460" y="260" width="230" height="150" rx="10" fill="#0d2b22" stroke="#2dfcbf"/>
+  <text x="575" y="340" fill="#a9ffe5" font-family="Inter,Arial" font-size="42" text-anchor="middle">BMS</text>
+</svg>

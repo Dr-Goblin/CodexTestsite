@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Motor control board illustration">
+  <rect width="1200" height="700" fill="#101a28"/>
+  <g stroke="#8bffe8" stroke-width="6" fill="none" opacity="0.7">
+    <path d="M90 150H300V350H520V150H760V350H1090"/>
+    <path d="M90 540H280V420H560V540H1090"/>
+    <path d="M210 260H980"/>
+  </g>
+  <g fill="#ffde75" opacity="0.85">
+    <circle cx="300" cy="350" r="9"/><circle cx="520" cy="150" r="9"/><circle cx="760" cy="350" r="9"/>
+    <circle cx="560" cy="540" r="9"/><circle cx="280" cy="420" r="9"/>
+  </g>
+  <rect x="450" y="210" width="300" height="220" rx="14" fill="#1c2c43" stroke="#8bffe8"/>
+  <text x="600" y="320" fill="#f2fbff" font-family="Inter,Arial" font-size="46" text-anchor="middle">BLDC</text>
+  <text x="600" y="374" fill="#bed7ff" font-family="Inter,Arial" font-size="28" text-anchor="middle">TEST RIG</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="IoT board illustration">
+  <rect width="1200" height="700" fill="#061d2c"/>
+  <g stroke="#3fb6ff" stroke-width="5" fill="none" opacity="0.75">
+    <path d="M80 130H460V260H840V130H1120"/>
+    <path d="M80 560H360V430H760V560H1120"/>
+    <path d="M220 350H980"/>
+  </g>
+  <g fill="#2dfcbf">
+    <circle cx="460" cy="260" r="9"/><circle cx="840" cy="130" r="9"/><circle cx="760" cy="430" r="9"/>
+    <circle cx="360" cy="430" r="9"/><circle cx="980" cy="350" r="9"/>
+  </g>
+  <rect x="475" y="210" width="250" height="280" rx="14" fill="#0a2f46" stroke="#3fb6ff"/>
+  <text x="600" y="335" fill="#d7f2ff" font-family="Inter,Arial" font-size="42" text-anchor="middle">IoT</text>
+  <text x="600" y="390" fill="#9fd8ff" font-family="Inter,Arial" font-size="28" text-anchor="middle">POWER MONITOR</text>
+</svg>

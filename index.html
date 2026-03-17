@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Alex Morgan — Electrical Engineer portfolio with hardware projects, embedded systems work, and professional experience."
+      content="Alex Morgan — Electrical Engineer focused on embedded systems, mixed-signal hardware, and production-ready electronics."
     />
     <title>Alex Morgan | Electrical Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,153 +17,112 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <canvas id="fx-canvas" aria-hidden="true"></canvas>
-    <div class="pcb-traces" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <a class="skip-link" href="#content">Skip to content</a>
 
-    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="layout container">
+      <aside class="left">
+        <h1>Alex Morgan</h1>
+        <p class="role">Electrical Engineer</p>
+        <p class="tagline">I design electronics that survive real-world constraints.</p>
 
-    <header class="hero" id="top">
-      <nav class="container nav" aria-label="Primary navigation">
-        <a class="logo" href="#top">Alex Morgan, E.E.</a>
-        <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-        <ul class="nav-links" id="site-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <nav class="section-nav" aria-label="Section navigation">
+          <a href="#about" data-link>About</a>
+          <a href="#experience" data-link>Experience</a>
+          <a href="#projects" data-link>Projects</a>
+          <a href="#contact" data-link>Contact</a>
+        </nav>
+
+        <ul class="meta">
+          <li>Embedded Systems</li>
+          <li>Mixed-Signal Design</li>
+          <li>PCB + Validation</li>
         </ul>
-      </nav>
+      </aside>
 
-      <div class="container hero-content glass panel">
-        <p class="eyebrow">Electrical Engineer • Embedded Systems • Power Electronics</p>
-        <h1>Designing reliable electronics from concept, to board, to field deployment.</h1>
-        <p class="intro">
-          I specialize in mixed-signal design, embedded firmware integration, and hardware
-          validation. This site highlights my personal builds and professional engineering work.
-        </p>
-
-        <ul class="quick-facts" aria-label="Career highlights">
-          <li><strong>7+ years</strong> in electronics and embedded product development</li>
-          <li><strong>15+ PCB designs</strong> from prototype through production</li>
-          <li><strong>30% lower failure rate</strong> from improved validation workflows</li>
-        </ul>
-      </div>
-    </header>
-
-    <main id="main-content">
-      <section class="section container" id="about">
-        <div class="section-head">
-          <h2>About Me</h2>
-          <p>Hands-on electrical engineer focused on robust, manufacturable designs.</p>
-        </div>
-
-        <div class="glass panel">
+      <main id="content" class="right">
+        <section id="about" class="section">
+          <h2>About</h2>
           <p>
-            I build electronic systems end-to-end: requirements capture, schematic and PCB layout,
-            firmware bring-up, and lab validation. I enjoy transforming rough ideas into tested,
-            deployable hardware.
+            I’m an electrical engineer with 7+ years building embedded hardware from architecture to
+            production. I work across schematic capture, PCB layout, firmware bring-up, and hardware
+            validation.
           </p>
-          <div class="skills-wrap" aria-label="Core skills">
-            <h3>Technical Focus</h3>
-            <ul class="skills-list">
-              <li>Analog & Mixed-Signal Design</li>
-              <li>Power Supplies & Battery Systems</li>
-              <li>Embedded C / RTOS</li>
-              <li>MCU Bring-up (STM32 / ESP32)</li>
-              <li>PCB Design (KiCad / Altium)</li>
-              <li>Signal Integrity & EMI Debug</li>
-              <li>Lab Validation & Test Fixtures</li>
-              <li>DFM / Production Support</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+          <p>
+            My focus is pragmatic engineering: fast iteration in the lab, data-backed debugging, and
+            manufacturable designs that hold up in the field.
+          </p>
+        </section>
 
-      <section class="section container" id="experience">
-        <div class="section-head">
-          <h2>Professional Experience</h2>
-          <p>Roles where I designed, tested, and delivered electronics for real-world use.</p>
-        </div>
+        <section id="experience" class="section">
+          <h2>Experience</h2>
 
-        <div class="timeline">
-          <article class="timeline-item glass panel">
+          <article class="card">
             <header>
-              <h3>Senior Electrical Engineer — ArcVolt Systems</h3>
-              <p>2021 – Present</p>
+              <h3>Senior Electrical Engineer · ArcVolt Systems</h3>
+              <span>2021 — Present</span>
             </header>
+            <p>Industrial controls, high-reliability sensor interfaces, and board-level validation.</p>
             <ul>
-              <li>Owned schematic + layout for industrial sensor and control boards.</li>
-              <li>Built automated validation benches that reduced debug cycle time by 35%.</li>
-              <li>Led root-cause analysis on field returns and improved reliability metrics.</li>
+              <li>Led 6 PCB releases from prototype to pilot manufacturing.</li>
+              <li>Built automated test fixtures that cut validation time by 35%.</li>
+              <li>Reduced field-return failure rate by improving EMI and power integrity checks.</li>
             </ul>
           </article>
 
-          <article class="timeline-item glass panel">
+          <article class="card">
             <header>
-              <h3>Electrical Engineer — Pulse Dynamics</h3>
-              <p>2017 – 2021</p>
+              <h3>Electrical Engineer · Pulse Dynamics</h3>
+              <span>2017 — 2021</span>
             </header>
+            <p>Low-power embedded hardware for battery-operated IoT devices.</p>
             <ul>
-              <li>Developed low-power embedded hardware for battery-operated products.</li>
-              <li>Collaborated with firmware and mechanical teams through EVT/DVT/PVT.</li>
-              <li>Created test procedures and manufacturing checks for production scale-up.</li>
+              <li>Designed analog front ends and power rails for sensor acquisition systems.</li>
+              <li>Partnered with firmware/mechanical teams through EVT, DVT, and PVT.</li>
+              <li>Implemented production test procedures for contract manufacturing lines.</li>
             </ul>
           </article>
-        </div>
-      </section>
+        </section>
 
-      <section class="section container" id="projects">
-        <div class="section-head">
-          <h2>Personal & Professional Projects</h2>
-          <p>Electronics-focused builds that demonstrate design depth and practical execution.</p>
-        </div>
+        <section id="projects" class="section">
+          <h2>Projects</h2>
 
-        <div class="project-grid">
-          <article class="project-card glass panel">
-            <span class="board-tag">BATTERY SYSTEMS</span>
-            <h3>Smart BMS Prototype</h3>
-            <p>
-              Designed a 4S battery management board with balancing, protection monitoring, and CAN
-              telemetry for pack diagnostics.
-            </p>
-            <p class="tech">KiCad • STM32 • CAN</p>
+          <article class="project">
+            <img src="assets/project-bms.svg" alt="Smart BMS project board graphic" loading="lazy" decoding="async" />
+            <div>
+              <h3>Smart BMS Prototype</h3>
+              <p>4S battery management board with active balancing, protection logic, and CAN telemetry.</p>
+              <p class="stack">KiCad · STM32 · CAN</p>
+            </div>
           </article>
 
-          <article class="project-card glass panel">
-            <span class="board-tag">IOT INSTRUMENTATION</span>
-            <h3>IoT Power Monitor</h3>
-            <p>
-              Built an energy monitor with isolated sensing and cloud upload, enabling long-term
-              usage profiling for home and lab systems.
-            </p>
-            <p class="tech">ESP32 • ADC Front-End • MQTT</p>
+          <article class="project">
+            <img src="assets/project-iot.svg" alt="IoT power monitor project board graphic" loading="lazy" decoding="async" />
+            <div>
+              <h3>IoT Power Monitor</h3>
+              <p>Isolated sensing and cloud diagnostics for long-run power profiling and anomaly alerts.</p>
+              <p class="stack">ESP32 · Analog Front-End · MQTT</p>
+            </div>
           </article>
 
-          <article class="project-card glass panel">
-            <span class="board-tag">MOTION CONTROL</span>
-            <h3>Motor Control Test Rig</h3>
-            <p>
-              Created a bench setup for BLDC controller validation with load simulation, thermal
-              tracking, and scripted pass/fail reporting.
-            </p>
-            <p class="tech">Power Electronics • Python • DAQ</p>
+          <article class="project">
+            <img src="assets/project-motor.svg" alt="Motor control rig project board graphic" loading="lazy" decoding="async" />
+            <div>
+              <h3>Motor Control Test Rig</h3>
+              <p>BLDC validation platform with thermal tracking, programmable load profiles, and pass/fail reporting.</p>
+              <p class="stack">Power Electronics · Python · DAQ</p>
+            </div>
           </article>
-        </div>
-      </section>
-    </main>
+        </section>
 
-    <footer class="footer" id="contact">
-      <div class="container footer-content glass panel">
-        <div>
+        <section id="contact" class="section contact">
           <h2>Contact</h2>
-          <p>Email: <a href="mailto:alex.morgan@example.com">alex.morgan@example.com</a></p>
-          <p>LinkedIn: <a href="https://linkedin.com/in/alexmorgan" target="_blank" rel="noreferrer">linkedin.com/in/alexmorgan</a></p>
-          <p>GitHub: <a href="https://github.com/alexmorgan" target="_blank" rel="noreferrer">github.com/alexmorgan</a></p>
+          <p>I’m open to senior electrical/embedded roles and high-impact consulting work.</p>
+          <a class="cta" href="mailto:alex.morgan@example.com">alex.morgan@example.com</a>
           <p class="copyright" data-copyright></p>
-        </div>
-        <a class="btn btn-primary" href="#top">Back to Top</a>
-      </div>
-    </footer>
+        </section>
+      </main>
+    </div>
 
     <script src="script.js"></script>
   </body>
